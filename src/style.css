@@ -1,0 +1,172 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+div {
+  display: block;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.project-title {
+  text-align: left;
+}
+
+.app-details {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  margin-top: 16px;
+}
+
+.btn-primary {
+  background: #6b62ff !important;
+  box-shadow: var(--box-shadow);
+  margin-top: 6px;
+}
+
+.row {
+  display: flex;
+}
+.details-about-me {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.p-2 {
+  padding: 0.5rem !important;
+}
+
+.p-3 {
+  padding: 16px 14px !important;
+}
+
+.greeting {
+  margin-top: 100px;
+  margin-bottom: 8px;
+}
+
+.about-me-paragraph {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 30px 10px 8px;
+}
+
+#contact {
+  margin-top: 25px;
+}
+
+@media (max-width: 576px) {
+  body {
+    margin-bottom: 100px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+
+  .project-title {
+    text-align: center;
+  }
+
+  .app-details {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .launch-app-button {
+    display: block;
+    text-align: center;
+    margin: 0 20px -49px;
+  }
+  .p-3 {
+    padding: 19px 15px !important;
+  }
+}
